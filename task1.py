@@ -20,8 +20,7 @@ def likes(names):
         others = count - 2
         return names[0] + ", " + names[1] + " and " + str(others) + " others like this"
 
-name = input ('Enter your name')
-print(likes([name]))
+
 
 print(likes([]))  
 print(likes(["Peter"]))  
